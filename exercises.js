@@ -1,20 +1,22 @@
 function remix(reForm) {
     var text = '';
+	var text2 = ''
 	var textOrig = reForm.elements['userText'];
 	var output = ''
     
     text = textOrig.value;
     
-	// alert(text);
+	text2 = text.replace(/[&/\#+()$~%.":*?<>{}]/g,'');
 	
-	var cache = text.split(" ")
+	var cache = text2.split(" ")
 	var cache2 = new Array();
 	
 	var n = 0;
 	var m = 0;
 	var l = cache.length;
+	var lns = getRandomInt( (l/4) , (l/2) );
 	
-	for( var i = 0; i < l; i++ ){
+	for( var i = 0; i < lns; i++ ){
 	
 		m = getRandomInt(4,8);
 		
