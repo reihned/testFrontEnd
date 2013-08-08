@@ -85,7 +85,34 @@ table {
     src: url('fonts/ace/ace_futurism.ttf');
 } /*fix this shit*/
 
+/* ##### START FONTS #####*/
+ 
+ @font-face {
+    font-family: 'digital';
+    src: url('fonts/digitalanarchy/digitalanarchy-regular.eot');
+    src: url('fonts/digitalanarchy/digitalanarchy-regular.eot') format('embedded-opentype'),
+         url('fonts/digitalanarchy/digitalanarchy-regular.woff') format('woff'),
+         url('fonts/digitalanarchy/digitalanarchy-regular.ttf') format('truetype'),
+         url('fonts/digitalanarchy/digitalanarchy-regular.svg#digitalanarchyRegular') format('svg');
+} /*good for headers*/
 
+@font-face {
+    font-family: 'Squared';
+    src: url('fonts/squareddisplay/squareddisplay.eot');
+    src: url('fonts/squareddisplay/squareddisplay.eot') format('embedded-opentype'),
+         url('fonts/squareddisplay/squareddisplay.woff') format('woff'),
+         url('fonts/squareddisplay/squareddisplay.ttf') format('truetype'),
+         url('fonts/squareddisplay/squareddisplay.svg#SquaredDisplayRegular') format('svg');
+} /* good for minor text*/
+
+@font-face {
+    font-family: 'Reactor';
+    src: url('fonts/reactor/reactor-sans.eot');
+    src: url('fonts/reactor/reactor-sans.eot') format('embedded-opentype'),
+         url('fonts/reactor/reactor-sans.woff') format('woff'),
+         url('fonts/reactor/reactor-sans.ttf') format('truetype'),
+         url('fonts/reactor/reactor-sans.svg#ReactorSansRegular') format('svg');
+} /*moo*/
 
 /* ##### END FONTS ##### */
 	
@@ -94,27 +121,19 @@ a{  /*remove the underline from links*/
 }  /*links n anchors*/
 
 header, nav, footer, article, section{
-	font-family:	ace;
+	font-family:	courier;
+	font-size: 		100%;
 	
 	list-style:		none;
 	
 	margin:			5px;
 	padding: 		5px;
 	
-	line-height: 	1.35;
+	line-height: 	1.15;
 	
 	letter-spacing: 2px;
 	
-	font-weight: 	bold;
-	
 } /*main defaults*/
-
-/*link colors*/
-a:link 		{color:#000000;}    /* unvisited link */
-a:visited 	{color:#000000;}  	/* visited link */
-a:hover 		{color:#555555;}  	/* mouse over link */
-a:active 	{color:#000000;}  	/* selected link */ 
-/*link colors END*/
 
 html{
 	font-family:	Courier;
@@ -137,12 +156,6 @@ header{
 	
 }/*header*/
 
-nav{
-
-	font-family: 	digital;
-	
-}/*nav*/
-
 p{
 	font-family:	Courier;
 	letter-spacing: 1px;
@@ -152,7 +165,6 @@ p{
 
 h1{
 	font-size: 		200%;
-	font-family: 	Courier;
 }/*main header*/
 
 h2{
@@ -166,7 +178,3 @@ h3{
 }/*subsub header*/
 
 /* ##### END FONT & SIZING DEFAULTS ##### */
-
-/* ##### BEGIN SPECIFICS ##### */
-
-/* ##### END SPECIFICS ##### */
