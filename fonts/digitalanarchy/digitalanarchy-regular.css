@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'digitalanarchyRegular';
+    src: url('digitalanarchy-regular.eot');
+    src: url('digitalanarchy-regular.eot') format('embedded-opentype'),
+         url('digitalanarchy-regular.woff') format('woff'),
+         url('digitalanarchy-regular.ttf') format('truetype'),
+         url('digitalanarchy-regular.svg#digitalanarchyRegular') format('svg');
+}

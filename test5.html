@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<head>
+
+	<meta charset="utf-8">
+	<title>HTML5 Test</title>
+	
+	<link rel="stylesheet" type="text/css" href="testStyle.css">
+	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+</head>
+
+
+<header>
+	
+	<a name ="Header"> <!--Anchor Title-->
+	<h1> BOOP! </h1>
+	</a> <!--Anchor Title-->
+	
+	<p> This is an educational exercise in HTML5. </p>
+
+</header> <br/>
+
+
+
+<nav>
+	
+	<li><a href="#Header"> Home </a></li>
+	<li><a href="#Haikus"> Haikus </a></li>
+	<li><a href="#Canvas"> Canvas </a></li>
+	<li><a href="#Form"> Form </a></li>
+	<li><a href="#Article4"> Article4 </a></li>
+	<li><a href="#Article5"> Article5 </a></li>
+	<li><a href="#footer"> footer </a></li>
+	
+
+</nav> <br/>
+
+
+<article> <!--Haikus-->
+	
+	<a name ="Haikus"> <!--Anchor Title-->
+	<h3> Haikus </h3>
+	</a> <!--Anchor Title-->
+	
+	<p>
+		Haikus are easy,<br/>
+		But sometimes they don't make sense.<br/>
+		<a href="images/refrigerator.jpg">
+		******* </a>
+	</p>
+	
+	<li><a href="#Header"> top </a></li>
+</article> <!--Haikus End--> <br/>
+	
+<article> <!--Canvas-->
+		
+	
+	<a name ="Canvas">  <!--Anchor Title-->
+	<h3> Canvas </h3>
+	</a> <!--Anchor Title-->
+	
+	<canvas id="example" width="200" height="200" >
+	This text is displayed if your browser does not support HTML5 Canvas.
+	</canvas>
+	<script>
+	var example = document.getElementById('example');
+	var context = example.getContext('2d');
+	context.fillStyle = 'red';
+	context.fillRect(30, 30, 50, 50);
+	context.fillRect(90, 90, 50, 50);
+	</script>
+	
+	<li><a href="#Header"> top </a></li>
+</article> <!--Canvas End--> <br/>
+	
+<article> <!--Form-->
+	
+	<a name ="Form">  <!--Anchor Title-->
+	<h3>Form</h3>
+	</a> <!--Anchor Title-->
+	
+	<form action="" method="post">
+	
+	<li>
+	<label for="POST-name">Name:</label>
+	<input id="POST-name" type="text" name="name">
+	</li>
+	
+	<li>
+	<label for="POST-name">Age:</label>
+	<input id="POST-name" type="number" name="age">
+	</li>
+	
+	<li>
+	<label for="POST-name">Birthday:</label>
+	<input id="POST-name" type="date" name="birthday">
+	</li>
+	
+	<input type="submit" value="Save">
+	</form>
+	
+	<li><a href="#Header"> top </a></li>
+</article> <!--Form End--> <br/>
+	
+<article> <!--Article4-->
+		
+	
+	<a name ="Article4">  <!--Anchor Title-->
+	<h3>Article4</h3>
+	</a> <!--Anchor Title-->
+	
+	<p>
+		Blah blah blah blah blah
+	</p>
+	
+	<li><a href="#Header"> top </a></li>
+</article> <!--Article4 End--> <br/>
+	
+<article> <!--Article5-->
+		
+		
+	<a name ="Article5">  <!--Anchor Title-->
+	<h3> Article5 </h3>
+	</a> <!--Anchor Title-->
+	
+	<p>
+		Blah blah blah blah blah
+	</p>
+	
+	<li><a href="#Header"> top </a></li>
+</article> <!--Article5 End--> <br/>
+
+
+<footer>
+	<a name ="footer"> </a> <!--Anchor Title-->
+			
+	<h4>footer</h4>
+			
+	<p>
+				end of page
+	</p>
+			
+	<p>
+				<li><a href="#Header"> top </a></li>
+	</p>
+</footer> <br/>

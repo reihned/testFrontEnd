@@ -1,0 +1,234 @@
+/*DON'T FORGET LAST IN FIRST OUT*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/*CSS Reset END*/
+
+
+/* ##### START FONTS #####*/
+ 
+ @font-face {
+    font-family: 'digital';
+    src: url('fonts/digitalanarchy/digitalanarchy-regular.eot');
+    src: url('fonts/digitalanarchy/digitalanarchy-regular.eot') format('embedded-opentype'),
+         url('fonts/digitalanarchy/digitalanarchy-regular.woff') format('woff'),
+         url('fonts/digitalanarchy/digitalanarchy-regular.ttf') format('truetype'),
+         url('fonts/digitalanarchy/digitalanarchy-regular.svg#digitalanarchyRegular') format('svg');
+} /*good for headers*/
+
+@font-face {
+    font-family: 'Squared';
+    src: url('fonts/squareddisplay/squareddisplay.eot');
+    src: url('fonts/squareddisplay/squareddisplay.eot') format('embedded-opentype'),
+         url('fonts/squareddisplay/squareddisplay.woff') format('woff'),
+         url('fonts/squareddisplay/squareddisplay.ttf') format('truetype'),
+         url('fonts/squareddisplay/squareddisplay.svg#SquaredDisplayRegular') format('svg');
+} /* good for minor text*/
+
+@font-face {
+    font-family: 'Reactor';
+    src: url('fonts/reactor/reactor-sans.eot');
+    src: url('fonts/reactor/reactor-sans.eot') format('embedded-opentype'),
+         url('fonts/reactor/reactor-sans.woff') format('woff'),
+         url('fonts/reactor/reactor-sans.ttf') format('truetype'),
+         url('fonts/reactor/reactor-sans.svg#ReactorSansRegular') format('svg');
+} /*moo*/
+
+@font-face {
+    font-family: 'ace';
+    src: url('fonts/ace/ace_futurism.ttf');
+} /*fix this shit*/
+
+
+
+/* ##### END FONTS ##### */
+	
+a{  /*remove the underline from links*/
+	text-decoration:none;  
+}  /*links n anchors*/
+
+header, nav, footer, article, section{
+	font-family:	ace;
+	
+	list-style:		none;
+	
+	margin:			5px;
+	padding: 		5px;
+	
+	line-height: 	1.35;
+	
+	letter-spacing: 2px;
+	
+	font-weight: 	bold;
+	
+} /*main defaults*/
+
+/*link colors*/
+a:link 		{color:#000000;}    /* unvisited link */
+a:visited 	{color:#000000;}  	/* visited link */
+a:hover 		{color:#555555;}  	/* mouse over link */
+a:active 	{color:#000000;}  	/* selected link */ 
+/*link colors END*/
+
+html{
+	background-image: url(images/little_pluses.png);
+	transition: all 3s;
+}
+
+/* ##### BEGIN FONT & SIZING DEFAULTS #####*/
+
+header{
+	
+	/*
+	background-image: url(images/noise_lines.png);
+	*/
+	
+	font-family: 	digital;
+	font-size: 		150%;
+	
+	
+}/*header*/
+
+nav{
+
+	font-family: 	digital;
+	
+}/*nav*/
+
+footer{
+	text-align: 	right;
+	border:			0;
+	font-family:	Squared;
+}/*footer*/
+
+p{
+	font-size: 		150%;
+	font-family:	ace;
+	letter-spacing: 1px;
+	margin: 		3px;
+	line-height: 	1.15;
+}/*basic content fix*/
+
+h1{
+	font-size: 		200%;
+	font-family: 	digital;
+}/*main header*/
+
+h2{
+	font-size: 		150%;
+	font-family: 	digital;
+}/*sub header*/
+
+h3{
+	font-size: 		125%;
+	font-family: 	digital;
+}/*subsub header*/
+
+/* ##### END FONT & SIZING DEFAULTS ##### */
+
+/* ##### BEGIN SPECIFICS ##### */
+
+#header{
+	min-height: 250px;
+}/*header*/
+
+#me{
+	width: 	available-400px;
+	float:	left;
+}/*me*/
+
+#navi{
+	width: available;
+	float: right;
+	background-image: 	url(images/little_pluses.png);
+}/*navi*/
+
+#ace{
+	margin-left:	50px;
+	margin-top: 	20px;
+} /*ace*/
+
+#profile{
+	color:				white;
+	background-image: 	url(images/twinkle.png);
+	opacity:0.95;
+	filter:alpha(opacity=95); /* For IE8 and earlier */
+}/*profile*/
+
+#services{
+	
+}/*services*/
+	
+#projects{
+	background-image: 	url(images/twinkle.png);
+	opacity:0.95;
+	filter:alpha(opacity=95); /* For IE8 and earlier */
+	color: 				white; 
+} /*projects*/
+
+#contact{
+	float: 	left;
+}/*projects*/
+
+#sub-project{
+	width: available;
+}/**/
+
+
+
+.icon{
+	float:	left;
+}/*fix icon stacking*/
+
+.icon-chevron-sign-up{
+    color: grey;
+	float: right;
+}
+
+/* ##### END SPECIFICS ##### */

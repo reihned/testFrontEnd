@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'CubicRegular';
+    src: url('cubic.eot');
+    src: url('cubic.eot') format('embedded-opentype'),
+         url('cubic.woff') format('woff'),
+         url('cubic.ttf') format('truetype'),
+         url('cubic.svg#CubicRegular') format('svg');
+}

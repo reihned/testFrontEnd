@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'AceFuturismRegular';
+    src: url('ace_futurism.eot');
+    src: url('ace_futurism.eot') format('embedded-opentype'),
+         url('ace_futurism.woff') format('woff'),
+         url('ace_futurism.ttf') format('truetype'),
+         url('ace_futurism.svg#AceFuturismRegular') format('svg');
+}

@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'SquaredDisplayRegular';
+    src: url('squareddisplay.eot');
+    src: url('squareddisplay.eot') format('embedded-opentype'),
+         url('squareddisplay.woff') format('woff'),
+         url('squareddisplay.ttf') format('truetype'),
+         url('squareddisplay.svg#SquaredDisplayRegular') format('svg');
+}
